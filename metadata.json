@@ -1,0 +1,8 @@
+{
+  "name": "Haji Kacchi Dine Kashiani",
+  "description": "হাজী কাচ্চি ডাইন (কাশিয়ানী) - আসল স্বাদ, বারবার মনে পড়ে। ঐতিহ্যবাহী কাচ্চি বিরিয়ানি ও অন্যান্য সুস্বাদু খাবারের প্রিমিয়াম ওয়েবসাইট।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

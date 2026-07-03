@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", ui-sans-serif, system-ui, sans-serif;
+  --font-tiro: "Tiro Bangla", serif;
+
+  --color-primary-black: #0D0D0D;
+  --color-signature-red: #C1272D;
+  --color-premium-gold: #D4AF37;
+  --color-accent-green: #1E7A3E;
+  --color-accent-blue: #1B6EA8;
+  --color-accent-purple: #6A2C91;
+  --color-cream: #F5F0E6;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #C1272D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+/* Custom glow effects for premium look */
+.gold-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+.red-glow {
+  box-shadow: 0 0 15px rgba(193, 39, 45, 0.25);
+}
+
+.gold-border {
+  border: 1px solid #D4AF37;
+}
+
+.red-gradient {
+  background: linear-gradient(135deg, #C1272D 0%, #8B1A1E 100%);
+}
+
+.traditional-motif {
+  background-image: radial-gradient(#D4AF37 0.5px, transparent 0.5px);
+  background-size: 10px 10px;
+  opacity: 0.1;
+}
+
+/* Loading animations */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
