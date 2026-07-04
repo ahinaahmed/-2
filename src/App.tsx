@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import MenuSection from './components/MenuSection';
 import Cart from './components/Cart';
 import AboutSection from './components/AboutSection';
-import GallerySection from './components/GallerySection';
 import ReservationSection from './components/ReservationSection';
 import ContactSection from './components/ContactSection';
 import FAQSection from './components/FAQSection';
@@ -259,7 +258,6 @@ export default function App() {
         {activeTab === 'menu' && <MenuSection onAddToCart={handleAddToCart} />}
         {activeTab === 'offers' && <OffersSection setActiveTab={setActiveTab} />}
         {activeTab === 'about' && <AboutSection />}
-        {activeTab === 'gallery' && <GallerySection />}
         {activeTab === 'reservation' && <ReservationSection />}
         {activeTab === 'contact' && <ContactSection />}
       </main>

@@ -58,7 +58,7 @@ export default function ContactSection() {
                 <div>
                   <h5 className="font-sans text-sm font-semibold text-white/50 mb-1">দোকানের অবস্থান</h5>
                   <p className="font-sans text-base text-white font-medium leading-relaxed">
-                    হাজী কাচ্চি ডাইন, কাশিয়ানী বাজার (হাই স্কুল সংলগ্ন), কাশিয়ানী, গোপালগঞ্জ।
+                    হাজী কাচ্চি ডাইন, কাশিয়ানী বাজার চন্দন মোড়, আলম প্লাজা, কাশিয়ানী, গোপালগঞ্জ।
                   </p>
                 </div>
               </div>
@@ -92,10 +92,10 @@ export default function ContactSection() {
                   <h5 className="font-sans text-sm font-semibold text-white/50 mb-1">ইমেইল ঠিকানা</h5>
                   <a 
                     id="contact-email-link"
-                    href="mailto:info@hajikacchidine.com" 
+                    href="mailto:ontor369032@gmail.com" 
                     className="font-sans text-base text-white font-medium hover:text-premium-gold transition-colors duration-300"
                   >
-                    info@hajikacchidine.com
+                    ontor369032@gmail.com
                   </a>
                 </div>
               </div>
@@ -178,7 +178,7 @@ export default function ContactSection() {
                     <MapPin className="w-6 h-6 text-premium-gold" />
                   </div>
                   <h6 className="font-tiro text-sm font-bold text-white mb-0.5">হাজী কাচ্চি ডাইন (কাশিয়ানী)</h6>
-                  <p className="font-sans text-[11px] text-white/60">কাশিয়ানী হাই স্কুল এর পাশে, কাশিয়ানী বাজার</p>
+                  <p className="font-sans text-[11px] text-white/60">চন্দন মোড়, আলম প্লাজা, কাশিয়ানী</p>
                 </div>
               </div>
             </div>

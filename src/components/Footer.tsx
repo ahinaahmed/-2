@@ -23,8 +23,13 @@ export default function Footer({ setActiveTab }: FooterProps) {
         {/* Brand Column */}
         <div className="space-y-4">
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => handleNavClick('home')}>
-            <div className="w-10 h-10 flex items-center justify-center bg-gradient-to-br from-signature-red to-primary-black border border-premium-gold rounded-full">
-              <span className="font-tiro text-base font-bold text-premium-gold">হাজী</span>
+            <div className="w-10 h-10 flex items-center justify-center bg-black border border-premium-gold rounded-full overflow-hidden">
+              <img 
+                src="https://i.ibb.co.com/1JvH3cb0/image.png" 
+                alt="হাজী কাচ্চি ডাইন লোগো"
+                referrerPolicy="no-referrer"
+                className="w-8 h-8 object-contain"
+              />
             </div>
             <span className="font-tiro text-xl font-bold text-premium-gold tracking-wide">হাজী কাচ্চি ডাইন</span>
           </div>
@@ -129,7 +134,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
           
           <div className="flex items-start space-x-3">
             <MapPin className="w-4 h-4 text-premium-gold mt-1 shrink-0" />
-            <span className="leading-relaxed">হাজী কাচ্চি ডাইন, কাশিয়ানী বাজার, কাশিয়ানী, গোপালগঞ্জ।</span>
+            <span className="leading-relaxed">কাশিয়ানী বাজার চন্দন মোড়, আলম প্লাজা, কাশিয়ানী, গোপালগঞ্জ।</span>
           </div>
 
           <div className="flex items-center space-x-3">
@@ -146,8 +151,8 @@ export default function Footer({ setActiveTab }: FooterProps) {
 
           <div className="flex items-center space-x-3">
             <Mail className="w-4 h-4 text-premium-gold shrink-0" />
-            <a href="mailto:info@hajikacchidine.com" className="hover:text-premium-gold transition-colors">
-              info@hajikacchidine.com
+            <a href="mailto:ontor369032@gmail.com" className="hover:text-premium-gold transition-colors">
+              ontor369032@gmail.com
             </a>
           </div>
         </div>

@@ -17,7 +17,6 @@ export default function Header({ activeTab, setActiveTab, cartCount, toggleCart 
     { id: 'menu', label: 'মেনু কার্ড' },
     { id: 'offers', label: 'স্পেশাল অফার' },
     { id: 'about', label: 'আমাদের সম্পর্কে' },
-    { id: 'gallery', label: 'গ্যালারি' },
     { id: 'reservation', label: 'টেবিল বুকিং' },
     { id: 'contact', label: 'যোগাযোগ' },
   ];
@@ -39,25 +38,14 @@ export default function Header({ activeTab, setActiveTab, cartCount, toggleCart 
           className="flex items-center space-x-3 cursor-pointer group"
           id="nav-logo"
         >
-          {/* Circular Traditional SVG Chef & Biryani Logo */}
-          <div className="relative w-12 h-12 flex items-center justify-center bg-gradient-to-br from-signature-red to-primary-black border-2 border-premium-gold rounded-full shadow-inner overflow-hidden">
-            <svg 
-              viewBox="0 0 100 100" 
-              className="w-9 h-9 fill-current text-premium-gold transform group-hover:scale-110 transition-transform duration-300"
-            >
-              {/* Steaming Handi Outline */}
-              <path d="M25,50 C25,35 75,35 75,50 L70,80 C70,85 30,85 30,80 Z" fill="none" stroke="#D4AF37" strokeWidth="4" />
-              {/* Handi Lid */}
-              <path d="M22,46 L78,46 C78,42 22,42 22,46 Z" fill="#C1272D" stroke="#D4AF37" strokeWidth="3" />
-              <circle cx="50" cy="38" r="4" fill="#D4AF37" />
-              {/* Steam waves */}
-              <path d="M42,28 Q45,22 42,16" fill="none" stroke="#D4AF37" strokeWidth="2.5" strokeLinecap="round" />
-              <path d="M50,30 Q53,24 50,18" fill="none" stroke="#D4AF37" strokeWidth="2.5" strokeLinecap="round" />
-              <path d="M58,28 Q61,22 58,16" fill="none" stroke="#D4AF37" strokeWidth="2.5" strokeLinecap="round" />
-              {/* Accent stars */}
-              <polygon points="18,30 20,33 23,31 21,28" fill="#D4AF37" />
-              <polygon points="82,30 80,33 77,31 79,28" fill="#D4AF37" />
-            </svg>
+          {/* Circular Traditional Logo Image */}
+          <div className="relative w-12 h-12 flex items-center justify-center bg-black border-2 border-premium-gold rounded-full shadow-inner overflow-hidden">
+            <img 
+              src="https://i.ibb.co.com/1JvH3cb0/image.png" 
+              alt="হাজী কাচ্চি ডাইন লোগো"
+              referrerPolicy="no-referrer"
+              className="w-10 h-10 object-contain transform group-hover:scale-110 transition-transform duration-300"
+            />
             {/* Spinning decorative golden dots border */}
             <div className="absolute inset-0 border border-dashed border-premium-gold/40 rounded-full animate-spin-slow"></div>
           </div>

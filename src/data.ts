@@ -10,7 +10,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceFull: 320,
     category: 'biryani',
     isBestSeller: true,
-    image: 'https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXj1PAnUdnvr2HO9b_KUr2L5YGqrrAm1kg-RhY3a_AFTkU8B5inJOGQdPO&s=10'
   },
   {
     id: 'kacchi-mutton-chinigura',
@@ -20,7 +20,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceHalf: 130,
     priceFull: 260,
     category: 'biryani',
-    image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTayMQqRpNOxgKfBfvN_Fx_dtn23frTI39UpnqjF6Bs-yI8icoVn79Kafc&s=10'
   },
   {
     id: 'chicken-dam-biryani',
@@ -30,7 +30,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceHalf: 160,
     priceFull: 320,
     category: 'biryani',
-    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9HHXh1QXUFIJnolHtyZAU2pnXigRydvNeyuJ3ajJOmw&s=10'
   },
   {
     id: 'beef-kacchi',
@@ -40,7 +40,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceHalf: 120,
     priceFull: 240,
     category: 'biryani',
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop'
+    image: 'https://i.ytimg.com/vi/k6rKCy55PNc/maxresdefault.jpg'
   },
   {
     id: 'morog-polao',
@@ -50,7 +50,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceHalf: 120,
     priceFull: 240,
     category: 'curry_tehari',
-    image: 'https://images.unsplash.com/photo-1601050690597-df056fb49785?q=80&w=800&auto=format&fit=crop'
+    image: 'https://i.ytimg.com/vi/wSYOx8vpJyM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnVUOmsITZJnbmTnQVzD5gb140fA'
   },
   {
     id: 'beef-tehari',
@@ -61,7 +61,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceFull: 200,
     category: 'curry_tehari',
     isBestSeller: true,
-    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOorcy0DGVWDP0TaHKJGVQ5ikoO8B1pOxKsegv6rLByQ&s=10'
   },
   {
     id: 'mutton-rezala-polao',
@@ -70,7 +70,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'ধোয়া ওঠা সুগন্ধি বাসমতি পোলাও চালের সাথে ঘন গ্রেভিতে রান্না করা ঐতিহ্যবাহী শাহী খাসির মাংসের রেজালা।',
     priceFull: 160,
     category: 'curry_tehari',
-    image: 'https://images.unsplash.com/photo-1545247181-516773cae72d?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSh_KVC9ZmRSIVFiPPK9gjAvK4m0w1Ye4dZofc-9BTq37gMVnG918f3AZ&s=10'
   },
   {
     id: 'beef-rezala-polao',
@@ -79,7 +79,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'ধোঁয়া ওঠা চিনিগুঁড়া পোলাও চালের সাথে বিশেষ মশলায় ভুনা গরুর মাংসের সুস্বাদু রেজালা জুড়ি মেলা ভার।',
     priceFull: 130,
     category: 'curry_tehari',
-    image: 'https://images.unsplash.com/photo-1545247181-516773cae72d?q=80&w=800&auto=format&fit=crop'
+    image: 'https://www.banglakutir.com/app-contents/upload/1/products/1641538034_1_1_1030036396.png'
   },
   {
     id: 'special-whole-chicken',
@@ -89,7 +89,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceFull: 600,
     category: 'curry_tehari',
     isChefsSpecial: true,
-    image: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDXgDeRwPHfmFnNnHi8MIVJVt6M2q3chXw8erZ0gCEnA&s=10'
   },
   {
     id: 'roast-extra',
@@ -98,7 +98,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'বিয়ে বাড়ির ঐতিহ্যবাহী স্বাদের স্পেশাল মশলা ও ঘি-তে ভাজা মুরগির শাহী রোস্ট।',
     priceFull: 90,
     category: 'kebabs',
-    image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMvzLVlc4FwY4nuEDYhSQzD8orkWmRm_9rsL1gZqYPdg&s=10'
   },
   {
     id: 'borhani-glass-liter',
@@ -109,7 +109,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceFull: 120,
     category: 'drinks',
     isBestSeller: true,
-    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF6VpXbjosuAlI4T_fIHtiBKnU6jRE0Tfub0ai5IRflw&s=10'
   },
   {
     id: 'badami-shorbot',
@@ -119,7 +119,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceHalf: 40,
     priceFull: 160,
     category: 'drinks',
-    image: 'https://images.unsplash.com/photo-1517244683807-7ae58e2f0545?q=80&w=800&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbZQnP0ijxYYrfSkut09KPuv7ogbigeJrvgJ_R7yrawckuIPLy4uFNNbSn&s=10'
   }
 ];
 
