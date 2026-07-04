@@ -107,7 +107,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h5 className="font-sans text-sm font-semibold text-white/50 mb-1">খোলার সময়সূচী</h5>
-                  <p className="font-sans text-base text-white font-medium">
+                  <p className="font-tiro text-lg text-white font-bold tracking-wide">
                     সকাল ১০:০০ টা – রাত ১১:০০ টা (প্রতিদিন)
                   </p>
                 </div>
