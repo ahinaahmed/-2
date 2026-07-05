@@ -166,7 +166,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
                 <Clock className="w-4 h-4 text-premium-gold" />
                 <span className="text-white/80">শনিবার – শুক্রবার</span>
               </div>
-              <span className="text-premium-gold font-bold">১০:০০ AM - ১১:০০ PM</span>
+              <span className="text-premium-gold font-bold">০৭:০০ AM - ১২:০০ AM</span>
             </div>
             
             <div className="flex items-center space-x-2 text-[10px] md:text-xs text-white/45">

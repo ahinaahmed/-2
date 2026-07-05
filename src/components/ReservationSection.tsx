@@ -165,11 +165,11 @@ export default function ReservationSection() {
                         className="w-full pl-12 pr-4 py-3 bg-primary-black border border-white/15 rounded-xl font-sans text-white focus:border-premium-gold focus:outline-none focus:ring-1 focus:ring-premium-gold transition-colors appearance-none"
                       >
                         <option value="" className="bg-primary-black">সময় নির্বাচন করুন</option>
-                        <option value="12:00 PM - 02:00 PM" className="bg-primary-black">দুপুর ১২:০০ - দুপুর ০২:০০</option>
-                        <option value="02:00 PM - 04:00 PM" className="bg-primary-black">দুপুর ০২:০০ - বিকেল ০৪:০০</option>
-                        <option value="06:00 PM - 08:00 PM" className="bg-primary-black">সন্ধ্যা ০৬:০০ - রাত ০৮:০০</option>
-                        <option value="08:00 PM - 10:00 PM" className="bg-primary-black">রাত ০৮:০০ - রাত ১০:০০</option>
-                        <option value="10:00 PM - 11:00 PM" className="bg-primary-black">রাত ১০:০০ - রাত ১১:০০</option>
+                        <option value="07:00 AM - 10:00 AM" className="bg-primary-black">সকাল ০৭:০০ - সকাল ১০:০০</option>
+                        <option value="10:00 AM - 01:00 PM" className="bg-primary-black">সকাল ১০:০০ - দুপুর ০১:০০</option>
+                        <option value="01:00 PM - 04:00 PM" className="bg-primary-black">দুপুর ০১:০০ - বিকেল ০৪:০০</option>
+                        <option value="06:00 PM - 09:00 PM" className="bg-primary-black">সন্ধ্যা ০৬:০০ - রাত ০৯:০০</option>
+                        <option value="09:00 PM - 12:00 AM" className="bg-primary-black">রাত ০৯:০০ - রাত ১২:০০</option>
                       </select>
                     </div>
                   </div>
